@@ -1,0 +1,49 @@
+#This is a list of repos or mirrors I am using for my ubuntu test server (impish 21.10)
+#Today: 16-12-21
+
+#tuto:
+#A- create or update my source list
+# NB: I will get my source list mirrors directly from this file.
+# Step to acheive it:
+# -> Login on ubuntu server
+# -> Backup old source list file
+#``sudo cp /etc/apt/source.list /etc/apt/source.list_save``
+# -> Edit the new file at "/etc/apt/source.list"
+# I use "nano" to edit the file
+# ``sudo nano /etc/apt/source.list``
+# -> Add path to this file
+# My link is:
+# But I write link like: ``mirror://``
+
+# default mirror:
+http://sn.archive.ubuntu.com/ubuntu
+
+# Bloomsburg University of Pennsylvania
+# Country: US
+# Owner: Doug Hoffman
+# Url: https://launchpad.net/ubuntu/+mirror/mirrors.bloomu.edu-archive
+https://mirrors.bloomu.edu/ubuntu/
+
+# mirror.enzu.com.ubuntu
+# Country: US
+# Owner: Nick Rose
+# Url: https://launchpad.net/ubuntu/+mirror/mirror.enzu.com-archive
+http://mirror.enzu.com/ubuntu/
+
+# Scaleway
+# Country: France
+# Owner: Vivien GUEANT
+# Url: https://launchpad.net/ubuntu/+mirror/scaleway
+https://fr.archive.ubuntu.com/ubuntu/
+
+# LeaseWeb Germany GmbH
+# Country: Germany
+# Owner: LeaseWeb
+# Url: https://launchpad.net/ubuntu/+mirror/mirror.de.leaseweb.net-archive
+https://mirror.de.leaseweb.net/ubuntu/
+
+# Georgia Tech. Software Library
+# Country: US
+# Owner: Neil Bright
+# Url: https://launchpad.net/ubuntu/+mirror/www.gtlib.gatech.edu-archive
+http://www.gtlib.gatech.edu/pub/ubuntu/
