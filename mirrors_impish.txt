@@ -16,8 +16,7 @@
 # But I write link like: ``mirror://``
 
 # default mirror:
-#
-#
+http://sn.archive.ubuntu.com/ubuntu
 
 # Bloomsburg University of Pennsylvania
 # Country: US
